@@ -1,0 +1,18 @@
+/* CSS to remove underline from all hyperlinks and add underline on hover */
+a {
+    text-decoration: none; /* Removes the underline from all links */
+    color: inherit; /* Optional: Ensures links inherit text color from parent */
+}
+
+a:hover, a:focus {
+    text-decoration: underline; /* Adds an underline on hover or focus for accessibility */
+}
+.footer-section {
+    flex: 1; /* Ensure equal width and filling of available space */
+}
+
+@media (max-width: 992px) {
+    .footer-section {
+        flex-basis: 100%; /* Stack on smaller screens */
+    }
+}
